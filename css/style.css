@@ -1,0 +1,145 @@
+html, body {
+    background-image: url("../images/bgimg.png");
+    background-repeat: repeat;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background: #2b2b2b;
+    color: #c5c5c5;
+}
+
+input[type="text"] {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input[type="text"]:focus{
+    background-color: #fff5ab;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+button {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tableDetail {
+    background-color: white;
+}
+
+table .detailadd {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('../images/deltailadd.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+
+table .detailadd:hover {
+    cursor: pointer;
+}
+
+table .detaildel {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('../images/deltaildel.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+
+table .detaildel:hover {
+    cursor: pointer;
+}
+
+#detailtemp {
+    display: none;
+}
+
+/* over-write jQuery-UI
+https://stackoverflow.com/questions/14992827/change-background-color-of-jquery-autocomplete-item-based-on-state-using-css
+*/
+
+.hasDatepicker {
+    width: 106px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ui-datepicker-trigger {
+    background: #0064ed;
+    color: white;
+    border-radius: 6px;
+}
+
+body .ui-autocomplete {
+    /* font-family to all */
+    font-size: 16px;
+    font-weight: 200;
+    max-height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* prevent horizontal scrollbar */
+
+}
+
+body .ui-autocomplete .ui-menu-item .ui-corner-all {
+    /* all <a> */
+    font-size: 16px;
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+body .ui-autocomplete .ui-menu-item .ui-state-focus {
+    /* selected <a> */
+    font-size: 16px;
+    max-height: 100px;
+    /*
+    overflow-y: auto;
+    overflow-x: hidden; */
+
+}
+
+/*
+.ui-menu-item .ui-menu-item-wrapper:hover
+{
+    border: none !important;
+    background: #ff0005;
+} */
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    background: #004fff;
+    color: white;
+}
+
+
+.ui-autocomplete-loading {
+    background: white url("../images/iconloading.gif") right center no-repeat;
+    background-size: 20px 20px;
+}
+
