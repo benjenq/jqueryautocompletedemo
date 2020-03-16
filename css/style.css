@@ -93,11 +93,12 @@ https://stackoverflow.com/questions/14992827/change-background-color-of-jquery-a
 
 body .ui-autocomplete {
     /* font-family to all */
+    background-color: #fff5ab;
     font-size: 16px;
     font-weight: 200;
     max-height: 150px;
-    overflow-y: auto;
     overflow-x: hidden;
+    overflow-y: hidden;
     /* prevent horizontal scrollbar */
 
 }
